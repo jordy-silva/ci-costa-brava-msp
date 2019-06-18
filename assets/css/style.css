@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+/* ------------------------------ Global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding-top: 166px; 
+
+}
+
+/* ------------------------------ Heading */
+
+.logo {
+    background: url("../images/cvm_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 150px;
+    min-width: 197px;
+}
+
+#spy {
+    background-color: #CCE4E7;
+}
+
+.menuitem {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menuitem span {
+    color: #FFB400;
+}
+
+.menulink.active {
+    background-color: #007A87 !important;
+}
+
+/* ------------------------------ Media Queries */
+
+@media(max-width: 768px) {
+    .menulink {
+        padding-left: 0.5rem !important;
+    }
+
+    .menuitem {
+        width: 145px;
+    }
+}
