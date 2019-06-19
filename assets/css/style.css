@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap');
 
 /* ------------------------------ Global */
 body {
@@ -36,14 +36,50 @@ body {
     background-color: #007A87 !important;
 }
 
+/* ------------------------------ Sections */
+
+.section-1a {
+    font-weight: 900;
+    text-align: right;
+    background-color: #007A87;
+    color: #ffffff;
+}
+
+.section-1a-rowmain {
+    font-size: 38px;
+}
+
+.section-1a-rowsub {
+    font-size: 23px;
+}
+
+.text-highlight {
+    color: #FFB400;
+}
+
 /* ------------------------------ Media Queries */
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
     .menulink {
         padding-left: 0.5rem !important;
     }
 
     .menuitem {
         width: 145px;
+    }
+
+    .section-1b {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .section-1b {
+        background-image: url("../images/sailing_fast.jpg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px;
+        bottom: 0px;
     }
 }
