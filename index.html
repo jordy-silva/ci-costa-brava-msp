@@ -91,7 +91,8 @@
                     </ul>
                 </div>
                 <div class="card-footer card-footer-custom">
-                    <a href="#section-5"><button type="button" class="my-0 btn btn-lg btn-block card-button-custom">Sign-Up!</button></a>
+                    <a href="#section-5"><button type="button"
+                            class="my-0 btn btn-lg btn-block card-button-custom">Sign-Up!</button></a>
                 </div>
             </div>
 
@@ -112,7 +113,8 @@
                     </ul>
                 </div>
                 <div class="card-footer card-footer-custom">
-                    <a href="#section-5"><button type="button" class="btn btn-lg btn-block card-button-custom">Sign-Up!</button></a>
+                    <a href="#section-5"><button type="button"
+                            class="btn btn-lg btn-block card-button-custom">Sign-Up!</button></a>
                 </div>
             </div>
 
@@ -133,7 +135,8 @@
                     </ul>
                 </div>
                 <div class="card-footer card-footer-custom">
-                    <a href="#section-5"><button type="button" class="btn btn-lg btn-block card-button-custom">Sign-Up!</button></a>
+                    <a href="#section-5"><button type="button"
+                            class="btn btn-lg btn-block card-button-custom">Sign-Up!</button></a>
                 </div>
             </div>
         </div>
@@ -155,17 +158,50 @@
             vero inventore.</p>
     </section>
 
-    <section>
-        <h4 id="list-item-5">Item 5</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique et nemo incidunt ipsa repellat,
-            deserunt
-            omnis saepe ducimus maxime unde excepturi quis, qui quidem expedita, consectetur repellendus enim quia
-            atque. Amet consequuntur illo a ullam facere eaque suscipit. Officia velit eveniet porro voluptatibus
-            necessitatibus incidunt nostrum molestias ipsum non delectus. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Animi possimus repudiandae ipsum voluptate quas, temporibus pariatur, praesentium sit
-            deleniti eveniet quisquam corrupti quidem, atque provident quae dolores quam error esse harum? Quaerat
-            neque reiciendis labore deleniti, minus cumque sed placeat praesentium ad sequi ex impedit minima
-            provident modi error qui!</p>
+    <section id="section-5" class="container mt-4">
+        <h3 class="section-heading uppercase text-center mb-3">Sign me up to race !</h3>
+        <div class="center-form">
+            <form>
+                <input type="text" name="boatname" id="boatname" class="form-control" placeholder="Your boat's name"
+                    required />
+                <input type="text" name="skipper" id="skipper" class="form-control" placeholder="Skipper's name"
+                    required />
+                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                <fieldset class="form-group">
+                    <div class="form-row">
+                        <legend class="col-form-label">Your participation package:</legend>
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="packages" id="package1"
+                                    value="WannaRace">
+                                <label class="form-check-label" for="package1">
+                                    Wanna Race
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="packages" id="package2"
+                                    value="andParty">
+                                <label class="form-check-label" for="package2">
+                                    and Party
+                                </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <input class="form-check-input" type="radio" name="packages" id="package3"
+                                    value="GimmeAll" checked>
+                                <label class="form-check-label" for="package3">
+                                    Gimme All
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-row text-center">
+                    <div class="col">
+                        <button type="submit" class="btn btn-secondary">Send Details</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 
     <footer>

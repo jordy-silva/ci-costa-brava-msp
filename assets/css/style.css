@@ -100,6 +100,19 @@ a:hover, a:visited, a:link, a:active
     color: #007A87;
 }
 
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #FFB400;
+    background-color: #007A87;
+}
+
 /* ------------------------------ Media Queries */
 
 @media(max-width: 767px) {
