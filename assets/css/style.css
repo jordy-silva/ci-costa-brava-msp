@@ -123,6 +123,51 @@ button[type="submit"] {
     background-color: #007A87;
 }
 
+/* ------------------------------ Footer */
+
+footer {
+    background-color: #007A87;
+    color: #FFB400;
+    margin: 0;
+}
+
+footer p {
+    font-size: 0.75rem;
+}
+
+footer .heading {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #FFB400;
+}
+
+footer a:hover {
+    color: #FFDA80;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #007A87;
+    background: #FFB400;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #FFDA80;
+}
+
 /* ------------------------------ Media Queries */
 
 @media(max-width: 767px) {
