@@ -49,6 +49,12 @@ a:hover, a:visited, a:link, a:active
     text-transform: uppercase;
 }
 
+.section-subheading {
+    font-weight: 500;
+    color: #FFB400;
+    text-transform: uppercase;
+}
+
 .section-1a {
     font-weight: 900;
     text-align: right;
@@ -98,6 +104,10 @@ a:hover, a:visited, a:link, a:active
 
 .card-button-custom:hover {
     color: #007A87;
+}
+
+.section-4 {
+    background-color: #007A87;
 }
 
 .center-form {
