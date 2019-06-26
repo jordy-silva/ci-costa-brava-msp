@@ -70,6 +70,11 @@ a:hover, a:visited, a:link, a:active
     font-size: 23px;
 }
 
+.section-course-description {
+    color: #007A87;
+    padding: 30px 30px;
+}
+
 .text-highlight {
     color: #FFB400;
 }
@@ -106,7 +111,7 @@ a:hover, a:visited, a:link, a:active
     color: #007A87;
 }
 
-.section-4 {
+.section-sponsors {
     background-color: #007A87;
 }
 
@@ -193,4 +198,15 @@ footer a:hover {
         min-height: 400px;
         bottom: 0px;
     }
+
+    .section-course {
+        background-image: url("../images/map.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+        min-height: 600px;
+        bottom: 0px;
+        max-width: 1280px;
+    }
+    
 }
