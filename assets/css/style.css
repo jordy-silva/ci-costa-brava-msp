@@ -29,8 +29,9 @@ a:hover, a:visited, a:link, a:active
 }
 
 .menuitem {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
+    padding: 0.2rem;
 }
 
 .menuitem span {
@@ -135,7 +136,6 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #007A87;
     background-color: #FFCB4D;
-    border: 3px solid #007A87;
     font-weight: 700;
 }
 
