@@ -12,12 +12,12 @@ This website serves as information platform about the race to interested partici
 
 - As organization, I want to give all information about the race, so I can get people interested
 - As skipper, I want to know prices so I can decide if I want to participate
-- As skipper, I want an easy way to sign-up so I can 
+- As skipper, I want an easy way to sign-up so I can participate
 - As a Sponsor, I want my company to be shown to visitors so I can get a positive ROI
 - As aficionado, I want centralized access to all social media, so I can follow the event
 
 **Wireframes**
-For the skeleton element of the UX design of this project, the [balsamiq.cloud](https://balsamiq.cloud)tool was used to create the wireframe. The wireframe can be [viewed here.](https://jordy-silva.github.io/ci-costa-brava-msp/assets/wireframes/desktop.png)
+For the skeleton element of the UX design of this project, the [balsamiq.cloud](https://balsamiq.cloud) tool was used to create the wireframe. The wireframe can be [viewed here.](https://github.com/jordy-silva/ci-costa-brava-msp/blob/master/assets/wireframes/desktop.png)
 
 ## Features
 
@@ -38,7 +38,7 @@ A scrollspy feature from Bootstrap is also used in the navigation menu to provid
 
 ## Testing
 
-The site has been tested in multiple browsers (Chrome, Chromium, Safari, Internet Explorer, FireFox), in multiple OS (OSx, Linux, Windows 10) and on multiple mobile devices (Android 7 phone & iPad mini) to ensure compatibility and responsiveness.
+The site has been tested in multiple browsers (Chrome, Chromium, Safari, FireFox), in multiple OS (MacOS, Linux) and on multiple mobile devices (Android 7 phone & iPad mini) to ensure compatibility and responsiveness.
 
 All links have been tested and all the ones linking to external websites open in a blank tab.
 
@@ -48,7 +48,7 @@ All user stories have been checked to confirm the website offers a solution to t
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html
 
-To run locally, you can clone this repository by pasting git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git into your terminal, given that git is installed in your machine.
+To run locally, you can clone this repository by pasting git clone https://github.com/jordy-silva/ci-costa-brava-msp.git into your terminal, given that git is installed in your machine.
 
 
 ## Credits
